@@ -1,5 +1,5 @@
 // sw.js
-const CACHE_NAME = 'portfolio-v1.1.43'; // <- bump this
+const CACHE_NAME = 'portfolio-v1.1.44'; // <- bump this
 const urlsToCache = [
   '/',
   '/index.html',
@@ -43,4 +43,5 @@ self.addEventListener('fetch', (event) => {
       }
     )
   );
+
 });
