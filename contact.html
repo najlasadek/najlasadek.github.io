@@ -1,0 +1,82 @@
+<!-- ==================== contact.html ==================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Najla Sadek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Najla Sadek</a>
+            
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="engineering.html" class="nav-link">Engineering</a>
+                <a href="art.html" class="nav-link">Music</a>
+                <!-- <a href="honors.html" class="nav-link">Honors</a> -->
+                <a href="features.html" class="nav-link">Features & Interviews</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <div class="carousel-container" id="carouselContainer">
+            <div class="carousel" id="carousel"></div>
+        </div>
+
+        <main class="main-content">
+            <div class="section fade-in">
+                <div class="section-header">
+                    <h1 class="section-title">Let's Connect</h1>
+                    <p class="section-subtitle">Open to collaborations in machine learning, AI research, and classical performance opportunities.</p>
+                    <p style="margin: 2rem 0; font-size: 1.1rem;">
+                        Whether you're interested in discussing machine learning research, AI applications, 
+                        classical music collaborations, or performance opportunities, I'd love to hear from you.
+                    </p>
+                </div>
+            </div>
+
+            <section class="section">
+                <div class="contact-info" id="contactInfo">
+                    <!-- Populated by JavaScript -->
+                </div>
+                
+                <div class="text-center mt-4" id="resumeSection">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="text-center">
+                    <!-- <h3 class="section-title">Explore My Work</h3> -->
+                    <div class="hero-actions">
+                        <!-- <a href="engineering.html" class="btn btn-secondary">Engineering Projects</a>
+                        <a href="art.html" class="btn btn-secondary">Performance Gallery</a> -->
+                        <a href="events.html" class="btn btn-primary">Upcoming Events</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Najla Sadek. Engineering meets artistry.</p>
+            <!-- <div class="social-links" id="socialLinks"></div> -->
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najla Sadek - Engineering & Arts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Najla Sadek</a>
+            
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="engineering.html" class="nav-link">Engineering</a>
+                <a href="art.html" class="nav-link">Music</a>
+               
+                <!-- <a href="honors.html" class="nav-link">Honors</a> -->
+                <a href="features.html" class="nav-link">Features & Interviews</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="main-layout">
+        <!-- Carousel (Desktop) -->
+        <div class="carousel-container" id="carouselContainer">
+            <div class="carousel" id="carousel">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <div class="hero fade-in">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="heroTitle">Engineering Meets Artistry</h1>
+                    <p class="hero-subtitle" id="heroSubtitle">R&D Engineer & Classical Performer</p>
+                    <p class="hero-description" id="heroDescription">From quantization  at CERN to standing ovations at AUB's Founder's Day. Bridging the worlds of artificial intelligence and classical performance with precision and passion.</p>
+                    <div class="hero-actions" id="heroActions">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Hero Cards -->
+            <div class="hero-features fade-in" id="heroFeatures">
+                <!-- Populated by JavaScript -->
+            </div>
+
+            <!-- Homepage Sections -->
+            <div id="homepageSections">
+                <!-- Populated by JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <button class="lightbox-nav lightbox-prev" onclick="lightboxNav(-1)">‹</button>
+            <button class="lightbox-nav lightbox-next" onclick="lightboxNav(1)">›</button>
+            <img class="lightbox-image" id="lightboxImage" alt="Gallery Image">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Najla Sadek. Engineering meets artistry.</p>
+            <div class="social-links" id="socialLinks">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

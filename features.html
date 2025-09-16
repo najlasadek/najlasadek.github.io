@@ -1,0 +1,82 @@
+<!-- ==================== features.html ==================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features & Media - Najla Sadek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="features">
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Najla Sadek</a>
+            
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="engineering.html" class="nav-link">Engineering</a>
+                <a href="art.html" class="nav-link">Music</a>
+                <!-- <a href="honors.html" class="nav-link">Honors</a> -->
+                <a href="features.html" class="nav-link active">Features & Interviews</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <div class="carousel-container" id="carouselContainer">
+            <div class="carousel" id="carousel"></div>
+        </div>
+
+        <main class="main-content">
+            <div class="section fade-in">
+                <div class="section-header">
+                    <h1 class="section-title">Features & Media</h1>
+                    <p class="section-subtitle">Highlighted work and media coverage across engineering and performance</p>
+                </div>
+            </div>
+
+            <section class="section slide-in-left">
+                <h2 class="section-title">Featured Content</h2>
+                <div class="grid grid-2" id="featuresGrid"></div>
+            </section>
+
+            <section class="section">
+                <div class="text-center">
+                    <h3 class="section-title">More Content</h3>
+                    <div class="hero-actions">
+                        <a href="events.html" class="btn btn-secondary">Upcoming Events</a>
+                        <a href="art.html" class="btn btn-secondary">Performance Gallery</a>
+                        <a href="contact.html" class="btn btn-primary">Media Inquiries</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <button class="lightbox-nav lightbox-prev" onclick="lightboxNav(-1)">‹</button>
+            <button class="lightbox-nav lightbox-next" onclick="lightboxNav(1)">›</button>
+            <img class="lightbox-image" id="lightboxImage" alt="Gallery Image">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 Najla Sadek. Engineering meets artistry.</p>
+            <div class="social-links" id="socialLinks"></div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
