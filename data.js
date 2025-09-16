@@ -286,8 +286,8 @@ window.DATA = {
     {
       id: "feat-bmw-article", 
       kind: "Video",
-      title: "BMW Group IT — Because We Believe (music video)",
-      subtitle: "A unique artistic collaboration showcasing technology and creativity",
+      title: "BMW Group IT Music Collaboration — Because We Believe",
+      subtitle: "Munich, 2025 - Created and performed an original rendition of Andrea Bocelli’s “Because We Believe” as part of a first-of-its-kind music collaboration within BMW Group IT. Filmed near the iconic Four Cylinder Building in Munich, Germany, the project has been continuously broadcast internally across BMW.",
       img: "./assets/exp2.jpg",
       url: "https://www.youtube.com/watch?v=YRxYB59D5CI",
       embed: "https://www.youtube-nocookie.com/embed/YRxYB59D5CI?rel=0&modestbranding=1"
@@ -372,7 +372,7 @@ window.DATA = {
     },
     { 
       id: "proj-kcolor", 
-      title: "Number of K-Colorings Estimation for Graphs via Markov Chains"
+      title: "Number of K-colorings estimator for Graphs using Markov Chains"
       // text: "Heuristic + ML-assisted estimation of the chromatic number k for general graphs."
       // img: "./assets/thumb-proj-6.jpg" 
     }
@@ -381,15 +381,15 @@ window.DATA = {
   competitions_full: [
     { 
       id: "comp-amazon", 
-      title: "1st place Amazon Industry Program 2024", 
-      // text: "Automated PTQ/AWQ sweeps on Kubeflow; latency—accuracy trade-offs on constrained hardware.", 
+      title: "1st place - 2024 Amazon Industry Program 3.0 - out of 23 teams", 
+      text: " Completed a 6-week mentorship with Amazon, combining workshops on software development, product management, and machine learning, and played a key role in the ML development of FlutterForecast — a GEO AI-powered platform predicting locust movement through a custom insect2vec model integrated into real-world agricultural forecasting.", 
       // img: "./assets/thumb-proj-1.jpg" 
       mode: "text"
     },
     { 
       id: "comp-nasa", 
-      title: "Global Nominee Nasa Space Apps 2024", 
-      // text: "LangFlow-orchestrated multi-agent pipeline with local LLMs; FastAPI/Docker/SQLAlchemy stack."
+      title: "Global Nominee - 2024 NASA Space Apps Challenge - Top 1 locally", 
+      text: "Led team efforts to integrate NASA’s real-time Earth observation datasets into a user-friendly platform and engineered machine learning models to predict environmental changes, enhancing resource management for farmers and improving the accuracy of crop yield forecasts. "
       // img: "./assets/thumb-proj-2.jpg" 
     }
   ],
@@ -400,7 +400,7 @@ window.DATA = {
       id: "rec-founders-day",
       title: "Founder's Day 2024 — The Prayer",
       subtitle: "American University of Beirut — December 2024",
-      text: "Performed Andrea Bocelli's *The Prayer* at AUB's most prestigious annual event.",
+      text: "Performed “The Prayer” of Andrea Bocceli during AUB Founder's Day 2024, the university's most prestigious event standing amidst an inspiring community of academic excellence and leadership. “Najla Sadek who’s an engineering student and a star performer at AUB in so many ways” as President Khuri Said",
       img: "./assets/FoundersDay-2024/2.jpg",
       gallery: [
         "./assets/FoundersDay-2024/1.jpg",
@@ -424,11 +424,11 @@ window.DATA = {
     {
       id: "rec-bmw-collab",
       title: "BMW Group IT Music Collaboration — Because We Believe",
-      subtitle: "Munich — 2025", 
+      subtitle: "Munich, 2025 - Created and performed an original rendition of Andrea Bocelli’s “Because We Believe” as part of a first-of-its-kind music collaboration within BMW Group IT. Filmed near the iconic Four Cylinder Building in Munich, Germany, the project has been continuously broadcast internally across BMW.", 
       img: "./assets/.jpg",
       date: "2025-03-12",
-      links: [{ label: "Feature", url: "https://example.com/bmw-feature" }],
-      // tags: ["performance", "carousel"]
+      url: "https://www.youtube.com/watch?v=YRxYB59D5CI",
+      embed: "https://www.youtube-nocookie.com/embed/YRxYB59D5CI?rel=0&modestbranding=1"
     },
     { 
       id: "rec-alumni-2024", 
@@ -579,15 +579,15 @@ window.DATA = {
     { 
       id: "rec-hiba", 
       title: "Duet with Hiba Tawaji — Yemken Habbaytak", 
-      subtitle: "With Oussama El Rahbani — Nov 2017",
+      subtitle: "Nov 2017 - A live singing duet with international artist Hiba Tawaji, with the great Oussama El Rahbani on the piano.",
       url: "https://youtu.be/B0YXC9PXpWI?si=p5s2W7_vZwLuQBxz",
       embed: "https://www.youtube-nocookie.com/embed/B0YXC9PXpWI?rel=0&modestbranding=1"
     },
     { 
       id: "rec-agt", 
-      title: "Arabs Got Talent — Remarkable Contestant", 
+      title: "Arabs Got Talent — Der Holle Rache - Opera", 
       subtitle: "2017 Season", 
-      img: "./assets/thumb-perf-25.jpg" 
+      embed: "https://www.youtube-nocookie.com/embed/xvoKa1e-yc4?modestbranding=1"
     }
   ],
 
@@ -769,5 +769,4 @@ window.DISPLAY_OVERRIDES = {
       </div>
     `
   }
-
 };
