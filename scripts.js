@@ -698,7 +698,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Initialize common components
-        carousel.init();
+        // carousel.init();
         initSocialLinks();
         animations.initScrollAnimations();
         performance.initLazyLoading();
