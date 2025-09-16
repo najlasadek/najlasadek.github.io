@@ -372,8 +372,8 @@ window.DATA = {
     },
     { 
       id: "proj-kcolor", 
-      title: "Graph k-Coloring Estimator", 
-      text: "Heuristic + ML-assisted estimation of the chromatic number k for general graphs."
+      title: "Number of K-Colorings Estimation for Graphs via Markov Chains"
+      // text: "Heuristic + ML-assisted estimation of the chromatic number k for general graphs."
       // img: "./assets/thumb-proj-6.jpg" 
     }
   ],
@@ -769,4 +769,5 @@ window.DISPLAY_OVERRIDES = {
       </div>
     `
   }
+
 };
