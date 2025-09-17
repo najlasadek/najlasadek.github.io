@@ -291,7 +291,23 @@ window.DATA = {
       img: "./assets/exp2.jpg",
       url: "https://www.youtube.com/watch?v=YRxYB59D5CI",
       embed: "https://www.youtube-nocookie.com/embed/YRxYB59D5CI?rel=0&modestbranding=1"
+    },
+
+    {
+      id: "feat-day-cern", 
+      kind: "Video",
+      title: "A Day in a life of a CERN Summer Student - Featured on all CERN Official Social Media",
+      subtitle: "August, 2025 ",
+      img: "./assets/CERN-2025/socialmedia.jpg"
     }
+
+    // {
+    //   id: "feat-pierre-rabbat", 
+    //   kind: "Video",
+    //   title: "MTV Lebanon — Min el Ekhir Interview with Pierre Rabbat",
+    //   subtitle: "July, 2017",
+    //   embed: "https://www.youtube-nocookie.com/embed/1kLWBi_HUfg?modestbranding=1&rel=0"
+    // }
   ],
 
   /* ==================== ENGINEERING EXPERIENCE ==================== */
@@ -299,7 +315,7 @@ window.DATA = {
     {
       id: "exp-cern",
       title: "R&D ML Intern — CERN openlab (Top 1%, 37/3800)",
-      subtitle: "Jun—Aug 2025 • Geneva",
+      subtitle: "Jun—Aug 2025 • Geneva, Switzerland",
       text: "Next Generation Triggers (NGT): quantization strategies; Kubeflow automation; latency/accuracy benchmarking.",
       img: "./assets/cern1.jpg",
       links: [{ label: "More", url: "features.html" }]
@@ -307,7 +323,7 @@ window.DATA = {
     {
       id: "exp-bmw",
       title: "ML Engineer Intern — BMW Group IT", 
-      subtitle: "Jan—Jun 2025 • Munich",
+      subtitle: "Jan—Jun 2025 • Munich, Germany",
       text: "Multi-agent AI for synthetic data (LangFlow + local LLMs) with FastAPI, Docker, and SQLAlchemy.",
       img: "./assets/bmw1.jpg"
     },
@@ -316,8 +332,8 @@ window.DATA = {
       title: "Advanced ML Intern — inmind.ai",
       subtitle: "Jul—Aug 2024 • Beirut", 
       text: "YOLO/UNet on BMW SORDi; augmentation across 2D/3D (images & point clouds).",
-      // img: "./assets/thumb-exp-3.jpg",
-      mode:"text"
+      img: "./assets/inmind.jpg"
+      // mode:"text"
     }
   ],
 
@@ -359,6 +375,13 @@ window.DATA = {
       // img: "./assets/thumb-proj-4.jpg" 
     },
     { 
+      id: "proj-kcolor", 
+      title: "Estimating the Number of k-Colorings in Low-Degree Graphs",
+      text: "An implementation of Jerrum’s “very simple” MCMC algorithm to approximate the count of valid k-colorings on sparse graphs, paired with a Manim demo animation. The animation illustrates Glauber dynamics step by step—vertex recoloring, constraint checks, and convergence—to make the estimator’s behavior visually clear.",
+      img: "./assets/markov.jpg" 
+      
+    },
+    { 
       id: "proj-bach-lstm", 
       title: "Music Genesis (Bach LSTM)", 
       text: "LSTM-based generation; standardized MIDI tempo; creative evaluation." 
@@ -366,16 +389,12 @@ window.DATA = {
     },
     { 
       id: "proj-flutter", 
-      title: "FlutterForecast (Amazon Program)", 
+      title: "FlutterForecast (Amazon Industry Program 1st Place Winners)", 
       text: "GEO-AI locust movement prediction with custom insect2vec; mentorship deliverable."
       // img: "./assets/thumb-proj-5.jpg" 
-    },
-    { 
-      id: "proj-kcolor", 
-      title: "Number of K-colorings estimator for Graphs using Markov Chains"
-      // text: "Heuristic + ML-assisted estimation of the chromatic number k for general graphs."
-      // img: "./assets/thumb-proj-6.jpg" 
+      // links: [{ label: "More", url: "engineering.html" }]
     }
+
   ],
 
   competitions_full: [
@@ -414,7 +433,7 @@ window.DATA = {
       ],
       date: "2024-12-01",
       links: [
-        { label: "YouTube", url: "https://www.youtube.com/watch?v=PNsH9fyMnnU" },
+        { label: "Watch", url: "https://www.youtube.com/watch?v=PNsH9fyMnnU" },
         { label: "Linkedin", url: "https://www.linkedin.com/posts/najlasadek_aubfoundersday-theprayer-foundersday2024-activity-7269623358760128513-k9KI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEI9lWYBr8jjtdt7bK3ett58JB0Fxw_HFUY" },
         { label: "Article", url: "https://www.aub.edu.lb/articles/Pages/American-University-of-Beirut-marks-158th-Founders-Day.aspx" }
       ],
@@ -447,8 +466,8 @@ window.DATA = {
     { 
       id: "ev-msfea-rl", 
       title: "Musical Thursdays — MSFEA Re-launch", 
-      subtitle: "Sep 2024 • AUB", 
-      img: "./assets/thumb-perf-2.jpg" 
+      subtitle: "Sep 2024 • AUB"
+      // img: "./assets/thumb-perf-2.jpg" 
     },
     { 
       id: "rec-fas-gala", 
@@ -483,8 +502,8 @@ window.DATA = {
     { 
       id: "rec-asce-gala", 
       title: "ASCE Gala", 
-      subtitle: "AUB — May 2024", 
-      img: "./assets/thumb-perf-10.jpg" 
+      subtitle: "AUB — May 2024" 
+      // img: "./assets/thumb-perf-10.jpg" 
     },
     { 
       id: "rec-msfea-gather", 
@@ -514,25 +533,32 @@ window.DATA = {
       id: "rec-10th", 
       title: "10th Classical Recital", 
       subtitle: "AUB CMC — Nov 2023", 
-      img: "./assets/exp34.jpg" 
+      img: "./assets/exp34.jpg" ,
+      links: [{ label: "Watch", url: "https://www.youtube.com/watch?v=a5EQ046FBN4 " }]
+
     },
     { 
       id: "rec-baakline", 
       title: "Baakline Classical Music Recital", 
       subtitle: "Aug 2023", 
-      img: "./assets/thumb-perf-14.jpg" 
+      // img: "./assets/thumb-perf-14.jpg" 
+      embed: "https://www.youtube-nocookie.com/embed/AU-JVpzCIqk?modestbranding=1&rel=0"
+
     },
     { 
       id: "rec-baskinta", 
       title: "Baskinta Classical Music Recital", 
-      subtitle: "Aug 2023", 
-      img: "./assets/thumb-perf-15.jpg" 
+      subtitle: "Aug 2023"
+      // img: "./assets/thumb-perf-15.jpg" 
     },
     { 
       id: "rec-9th", 
       title: "9th Classical Recital", 
       subtitle: "AUB CMC — Mar 2023", 
-      img: "./assets/SingingAssembly.jpg" 
+      img: "./assets/exp14.jpg" ,
+      links: [{ label: "Watch", url: "https://youtu.be/HYGJWvdAn_w " }]
+
+
     },
     { 
       id: "rec-solo-fund", 
@@ -550,7 +576,9 @@ window.DATA = {
       id: "rec-8th", 
       title: "8th Classical Recital", 
       subtitle: "AUB CMC — Oct 2022", 
-      img: "./assets/thumb-perf-17.jpg" 
+      // img: "./assets/thumb-perf-17.jpg",
+      embed: "https://www.youtube-nocookie.com/embed/q5KrPaVChtM?modestbranding=1&rel=0" 
+
     },
     { 
       id: "rec-aubmcare", 
@@ -568,8 +596,9 @@ window.DATA = {
       id: "rec-7th", 
       title: "7th Classical Recital", 
       subtitle: "AUB CMC — Apr 2022", 
-      img: "./assets/thumb-perf-20.jpg" 
-    },
+      img: "./assets/exp22.jpg" ,
+
+      },
     { 
       id: "rec-oiec", 
       title: "OIEC World Congress — Musical Performance", 
